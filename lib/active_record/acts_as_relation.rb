@@ -68,6 +68,5 @@ module ActiveRecord
 
   class Base
     include ActsAsRelation
-    warn "acts_as_relation is depricated, please use active_record-acts_as gem."
   end
 end
